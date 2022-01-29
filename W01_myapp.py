@@ -1,0 +1,5 @@
+print('- Hi! Welcome to my program')
+var_name = input('- My name is Esteban. What is your name?\n+ ')
+print('- Nice to meet you', var_name)
+var_color = input('- ' + var_name + ' what is your favourite color?\n+ ')
+print('- Nice color! I like the ', var_color, ' too.')
