@@ -139,7 +139,7 @@ def challenge03():
             break                           # If the value of v repeat 16 times, the loop stops
         
         t += 1                          # The time increase 1 second
-        # END OF WHILE
+        
     
     # Terminal Velocity
     v_terminal = math.sqrt((m * g) / c)
