@@ -17,12 +17,12 @@ def guessMyNumberGame():
                 f"Number of attemps: {var_attemp_count}\n"
                 '-------------------------\n')
             break
-        elif var_guess_num <= var_magic_num:
+        elif var_guess_num < var_magic_num:
             print('Higuer')
-        elif var_guess_num >= var_magic_num:
+        elif var_guess_num > var_magic_num:
             print('Lower')
         else:
-            print('default')
+            print('catch dafault')
 
 
 
