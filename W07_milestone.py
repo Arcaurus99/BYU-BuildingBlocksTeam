@@ -2,6 +2,8 @@
 # https://byui-cse.github.io/cse110-course/lesson07/prove.html
 # CHROMA KEY TECHNIQUE (Visual Effect)
 # https://en.wikipedia.org/wiki/Chroma_key
+# GIT HUB CHROMA KEY PROJECT
+# https://github.com/RaulSanchezVazquez/chroma-key-composition
 
 from PIL import Image
 
@@ -14,7 +16,6 @@ width, height = img_foreground.size
 
 pixels_chroma = img_foreground.load()
 pixels_back = img_background.load()
-
 
 x = 0
 y = 0
@@ -46,7 +47,6 @@ img_foreground.show()
 #     else:
 #         print("I don't understand. Try again! \n")
     
-
 """#//////// DOC //////////
 
 # - OPEN IMAGE
@@ -80,5 +80,3 @@ image_original.save("the_file_goes_here.jpg")
 # - CREATE (New Image)
 # <<image_name_2>> = Image.new("RGB", <<image_name_1>>.size)
 image_new = Image.new("RGB", image_original.size)"""
-
-
