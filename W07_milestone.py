@@ -29,6 +29,11 @@ for x in range(0, width):
             # print(green_value)
             pixels_chroma[x, y] = pixels_back[x, y]
 
+        if r_fore < 100 and g_fore > 122 and b_fore < 100:
+            pixels_chroma[x, y] = pixels_back[x, y]
+        elif r_fore < 160 and g_fore > 160 and b_fore < 160:
+            pixels_chroma[x, y] = pixels_back[x, y]
+
 img_foreground.show()
 
 # SAVE IMAGE

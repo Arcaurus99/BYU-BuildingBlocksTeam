@@ -1,7 +1,7 @@
 
 value = int(input('How many columns and rows do you want in your multiplication table? ')) 
 
-spaces = int(len(str(value * value)))
+spaces = len(str(value ** 2))
 
 for x in range(value):
     x += 1
@@ -9,5 +9,5 @@ for x in range(value):
     for y in range(value):
         y += 1
         print(f'{(y * x):{spaces}}' , end = ' ')
-    print(end = '\n')
+    print()
 
