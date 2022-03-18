@@ -24,6 +24,18 @@
 #     except ValueError:
 #         print("Oops!  That was no valid number.  Try again... = ")
 
-X=5
-X=+1
-print(X)
+"""sentence = "I, will, go ,and, do"
+
+words = sentence.split(",")
+# The variable "words" is now a list that contains each word.
+
+# You can iterate through each word and do something with it, such as display it:
+for word in words:
+    print(word, " <- spaces")
+    print(word.strip(), " <- strip")"""
+
+line = "     text"
+
+line.strip()
+
+print(line)
