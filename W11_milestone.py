@@ -64,7 +64,7 @@ def mapReducer(year_input):
 
     year_life_avg = year_life_total / len(year_life_expentancy_values)
 
-    print(f'\n-- Life Expectancies Spanish Flu --\n'
+    print(f'\n-- Life Expectancies Spanish Flu Over Years --\n'
         f'\nThe overall min life expectancy is: {highest[life_str]} from {highest[country_str]} in {highest[year_str]}\n'
         f'The overall max life expectancy is: {lowest[life_str]} from {lowest[country_str]} in {lowest[year_str]}\n'
         '\n'
